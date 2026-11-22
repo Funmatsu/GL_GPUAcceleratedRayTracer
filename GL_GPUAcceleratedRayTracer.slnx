@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="GL_GPUAcceleratedRayTracer/GL_GPUAcceleratedRayTracer.vcxproj" Id="54425ea7-329d-4d2b-9ea1-d2ef4f83a74a" />
+</Solution>

@@ -1,0 +1,296 @@
+{
+  "geometry": [
+    {
+      "comment": "back_wall",
+      "type": "rectangle",
+      "p1": [ -200.0, 0.0, -759 ],
+      "p2": [ 556, 0.0, -759 ],
+      "p3": [ 556, 548.8, -759 ],
+      "p4": [ -200.0, 548.8, -759 ],
+
+      "ac": [ 1, 1, 1 ],
+      "dc": [ 1, 1, 1 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 1,
+      "visible": true
+    },
+
+    {
+      "comment": "front_wall (camera side, invisible)",
+      "type": "rectangle",
+      "p1": [ -200.0, 0.0, 700 ],
+      "p2": [ 556, 0.0, 700 ],
+      "p3": [ 556, 548.8, 700 ],
+      "p4": [ -200.0, 548.8, 700 ],
+
+      "ac": [ 1, 1, 1 ],
+      "dc": [ 1, 1, 1 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 3,
+      "visible": true
+    },
+
+    {
+      "comment": "right_wall (red)",
+      "type": "rectangle",
+      "p1": [ 556, 0.0, -759 ],
+      "p2": [ 556, 0.0, 700 ],
+      "p3": [ 556, 548.8, 700 ],
+      "p4": [ 556, 548.8, -759 ],
+
+      "ac": [ 1, 0, 0 ],
+      "dc": [ 1, 0, 0 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 0,
+      "visible": true
+    },
+
+    {
+      "comment": "left_wall (green)",
+      "type": "rectangle",
+      "p1": [ -200.0, 0.0, 700 ],
+      "p2": [ -200.0, 0.0, -759 ],
+      "p3": [ -200.0, 548.8, -759 ],
+      "p4": [ -200.0, 548.8, 700 ],
+
+      "ac": [ 0, 1, 0 ],
+      "dc": [ 0, 1, 0 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 0,
+      "visible": true
+    },
+
+    {
+      "comment": "ceiling",
+      "type": "rectangle",
+      "p1": [ -200.0, 548.8, 700 ],
+      "p2": [ -200.0, 548.8, -759 ],
+      "p3": [ 556, 548.8, -759 ],
+      "p4": [ 556, 548.8, 700 ],
+
+      "ac": [ 1, 1, 1 ],
+      "dc": [ 1, 1, 1 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 2,
+      "roughness": 0.75,
+      "luminousity": 0,
+      "visible": true
+    },
+
+    {
+      "comment": "floor",
+      "type": "rectangle",
+      "p1": [ -200.0, 0.0, 700 ],
+      "p2": [ 556, 0.0, 700 ],
+      "p3": [ 556, 0.0, -759 ],
+      "p4": [ -200.0, 0.0, -759 ],
+
+      "ac": [ 1, 1, 1 ],
+      "dc": [ 1, 1, 1 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 0,
+      "visible": true
+    },
+    {
+      "type": "sphere",
+      "centre": [ -140, 60, -150 ],
+      "radius": 50,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 0.9, 0.9, 0.9 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 200,
+
+      "material": 3,
+      "roughness": 0.4,
+      "ior": 1.0833
+    },
+    {
+      "type": "sphere",
+      "centre": [ 500, 60, -150 ],
+      "radius": 50,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 0.9, 0.9, 0.9 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 200,
+
+      "material": 3,
+      "roughness": 0.4,
+      "ior": 1.0833
+    },
+    {
+      "type": "sphere",
+      "centre": [ -120, 60, -450 ],
+      "radius": 50,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 0.9, 0.9, 0.9 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 50,
+
+      "material": 2,
+      "roughness": 0.4,
+      "luminousity": 0
+    },
+
+    {
+      "type": "sphere",
+      "centre": [ 170, 60, -450 ],
+      "radius": 50,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 1, 0.8, 0.8 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 50,
+
+      "material": 1,
+      "roughness": 0.2
+    },
+    {
+      "type": "sphere",
+      "centre": [ 460, 60, -450 ],
+      "radius": 50,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 0.8, 1, 1 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 50,
+
+      "material": 3,
+      "roughness": 0,
+      "luminousity": 0,
+      "ior": 1.5
+    },
+    {
+      "type": "sphere",
+      "centre": [ 178, 548, -329.5 ],
+      "radius": 65,
+      "ac": [ 0, 0, 0 ],
+      "dc": [ 0.8, 1, 1 ],
+      "sc": [ 1, 1, 1 ],
+
+      "ka": 0,
+      "kd": 1,
+      "ks": 1,
+      "pc": 50,
+
+      "material": 1,
+      "roughness": 0,
+      "luminousity": 100,
+      "ior": 1.5,
+      "visible":  false
+    },
+    {
+      "type": "rectangle",
+      "p1": [ 243, 548, -327 ],
+      "p2": [ 243, 548, -432 ],
+      "p3": [ 113, 548, -432 ],
+      "p4": [ 113, 548, -327 ],
+
+      "ac": [ 1, 1, 1 ],
+      "dc": [ 1, 1, 1 ],
+      "sc": [ 0, 0, 0 ],
+
+      "ka": 0.0,
+      "kd": 1,
+      "ks": 0.0,
+
+      "pc": 1.0,
+      "material": 0,
+
+      "luminousity": 1000,
+      "visible": true
+    }
+  ],
+
+  "light": [
+    {
+      "type": "area",
+      "p1": [ 343, 520, -227 ],
+      "p2": [ 343, 520, -332 ],
+      "p3": [ 213, 520, -332 ],
+      "p4": [ 213, 520, -227 ],
+
+      "id": [ 1, 1, 1 ],
+      "is": [ 1, 1, 1 ],
+
+      "n": 5,
+      "usecenter": true,
+      "use":  false
+    }
+  ],
+
+  "output": [
+    {
+      "filename": "empty_cornell.ppm",
+      "size": [ 500, 500 ],
+
+      "lookat": [ 0, 0, -1 ],
+      "up": [ 0, 1, 0 ],
+      "fov": 40,
+
+      "centre": [ 177, 273, 600 ],
+
+      "ai": [ 1, 1, 1 ],
+      "bkc": [ 0.5, 0.5, 0.5 ],
+
+      "globalillum": true,
+      "raysperpixel": [ 10, 10 ],
+      "antialiasing": true,
+      "maxbounces": 3,
+      "probterminate": 0.333
+    }
+  ]
+}
